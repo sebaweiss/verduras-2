@@ -1,0 +1,15 @@
+[
+    {
+      "Denominacion": "Tomate",
+      "Tipo": "verdura",
+      "UnidadMedida": "kg",
+      "PrecioUnitario": 40.0
+    },
+    {
+      "Denominacion": "Lechuga",
+      "Tipo": "verdura",
+      "UnidadMedida": "unidad",
+      "PrecioUnitario": 15.0
+    }
+  ]
+  

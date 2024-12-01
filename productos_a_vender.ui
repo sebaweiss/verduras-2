@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProductosAVenderDialog</class>
+ <widget class="QDialog" name="ProductosAVenderDialog">
+  <property name="windowTitle">
+   <string>Productos a Vender</string>
+  </property>
+  <widget class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_fecha">
+     <property name="text">
+      <string>Fecha de Operación:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="le_fecha"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_tipo_operacion">
+     <property name="text">
+      <string>Tipo de Operación:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="le_tipo_operacion"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_producto">
+     <property name="text">
+      <string>Denominación de Producto:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="cb_producto"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_tipo">
+     <property name="text">
+      <string>Tipo:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="le_tipo" readOnly="true"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_unidad_medida">
+     <property name="text">
+      <string>Unidad de Medida:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="le_unidad_medida" readOnly="true"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_cantidad">
+     <property name="text">
+      <string>Cantidad:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="le_cantidad"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_precio_unitario">
+     <property name="text">
+      <string>Precio Unitario:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="le_precio_unitario"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_precio_total">
+     <property name="text">
+      <string>Precio Total:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="le_precio_total" readOnly="true"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QPushButton" name="bt_guardar">
+     <property name="text">
+      <string>Guardar Venta</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QPushButton" name="bt_cancelar">
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+   </item>
+  </widget>
+ </widget>
+</ui>

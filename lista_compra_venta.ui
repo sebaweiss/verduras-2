@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListaComprasVentasDialog</class>
+ <widget class="QDialog" name="ListaComprasVentasDialog">
+  <property name="windowTitle">
+   <string>Lista de Compras y Ventas</string>
+  </property>
+  <widget class="QTableWidget" name="tabla_compras_ventas">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>760</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Fecha de Operación</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tipo de Operación</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Denominación de Producto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tipo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Unidad de Medida</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cantidad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Precio Unitario</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Precio Total</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="bt_cerrar">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>430</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </widget>
+ </widget>
+</ui>

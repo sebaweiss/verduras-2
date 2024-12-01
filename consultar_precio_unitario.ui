@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConsultarPrecioUnitarioDialog</class>
+ <widget class="QDialog" name="ConsultarPrecioUnitarioDialog">
+  <property name="windowTitle">
+   <string>Consultar Precio Unitario</string>
+  </property>
+  <widget class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_producto">
+     <property name="text">
+      <string>Producto:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="le_producto"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_precio_unitario">
+     <property name="text">
+      <string>Precio Unitario:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="le_precio_unitario" readOnly="true"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_unidad_medida">
+     <property name="text">
+      <string>Unidad de Medida:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="le_unidad_medida" readOnly="true"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="bt_buscar">
+     <property name="text">
+      <string>Buscar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="bt_nueva_busqueda">
+     <property name="text">
+      <string>Nueva Búsqueda</string>
+     </property>
+    </widget>
+   </item>
+  </widget>
+ </widget>
+</ui>
